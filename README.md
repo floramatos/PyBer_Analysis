@@ -8,16 +8,17 @@ Data Source: city_data.csv, ride_data.csv
 Software: Python 3.8.9, Jupyter Notebook
 
 ## Results
-Table 1 shows the summary statistics.
 As seen in Table 1, there are more rides in urban cities (N = 1,625), compared to suburban (N = 625) and rural (N = 125) ones. Urban cities have also more drivers and a larger amount of total ride fares, relative to suburban and rural cities. As a consequence, the average fare per ride and per driver are lower for urban cities than suburban and rural ones.
 
-Table 1. Summary DataFrame
+Table 1. Summary Data Frame
+
 ![Screen Shot 2021-11-19 at 2 50 12 PM](https://user-images.githubusercontent.com/89421440/142743723-e698a247-0943-4599-848c-cfe057ce8271.png)
 
 
 Taking a closer look at the total fare per city type (see Figure 1), it is possible to identify that the fares have some fluctuation through time but that the distance between cities does not change much from January to April 2019. The total fare were consistently higher for urban cities, followed by Suburban and then Rural.
 
 Figure 1. Line chart
+
 ![PyBer_fare_summary](https://user-images.githubusercontent.com/89421440/142743738-dd22e448-31b3-4ddb-94d5-c91f7d7762bb.png)
 
 
